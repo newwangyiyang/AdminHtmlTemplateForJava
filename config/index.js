@@ -56,6 +56,9 @@ module.exports = {
      * for example GitHub pages. If you plan to deploy your site to https://foo.github.io/bar/,
      * then assetsPublicPath should be set to "/bar/".
      * In most cases please use '/' !!!
+     * 打包的时候在此处进行配置静态文件路径
+     * 例如: /SixPromotion/
+     * 不要使用 ./ 相对路径进行打包，可能导致css中图片路径找不到
      */
     assetsPublicPath: '/',
 
